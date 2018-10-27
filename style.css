@@ -1,11 +1,3 @@
-
-div{
-	text-align: center;
-}
-.row{
-	padding: 15px;
-}
-
 body{
 	background-color: #f2f2f2;
 	font-size: 16px;
@@ -15,12 +7,15 @@ body{
 	margin: 0;
 	padding: 0;
 }
+li{
+	list-style: none;
+}
 .nav-link{
 	padding: 2.3rem 1rem;
 	margin-right: 1rem;
 }
 .nav-links{
-	margin-left: 500px;
+	justify-content: flex-end;
 }
 .navbar{
 	margin: 0;
@@ -39,6 +34,10 @@ body{
 
 .information-block{
 	position: relative;
+	height: 800px;
+}
+.information-block a img{
+	margin-top: -40px;
 }
 
 .first-block{
@@ -63,10 +62,45 @@ body{
 	font-size: 2.3rem;
 	border-radius: 50px;
 }
+
 .search-and-weblinks{
-	margin-left: 300px;
+	transform: translateY(40px);
+	display: grid;
+	grid-gap: 10px;
+}
+.search-and-weblinks img{
+	width: 24px;
+	height: 24px;
 }
 
+.search-and-weblinks button{
+	background-color: transparent;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	text-decoration: none;
+}
+.nav-item .with-input{
+	display: flex;
+	flex-direction: row;
+}
+.inputter{
+	border: #777;
+	display: none;
+}
+
+@media only screen and (max-width: 767px){
+	.information-block a img{
+		margin-top: 10px;
+	}
+}
+@media only screen and(max-width: 650px){
+}
+@media only screen and (max-width: 500px){
+	.display-3{
+		width: 100%;
+	}
+}
 @media only screen and (max-width: 900px){
 	.row{
 		flex-direction: column;
