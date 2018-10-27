@@ -1,11 +1,70 @@
-body{
-	text-align: center;
-}
+
 div{
 	text-align: center;
 }
 .row{
 	padding: 15px;
+}
+
+body{
+	background-color: #f2f2f2;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	-webkit-font-smoothing:antialiased;
+	-webkit-overflow-scrolling:touch;
+	margin: 0;
+	padding: 0;
+}
+.nav-link{
+	padding: 2.3rem 1rem;
+	margin-right: 1rem;
+}
+.nav-links{
+	margin-left: 500px;
+}
+.navbar{
+	margin: 0;
+	padding: 0 3.4rem;
+	font-size: 15px;
+	background-color: transparent;
+	position: absolute;
+	z-index: 2000;
+	width: 100%;
+}
+.navbar a{
+	color: white;
+	letter-spacing: 1.35px;
+	line-height: 21.42px;
+}
+
+.information-block{
+	position: relative;
+}
+
+.first-block{
+	position: absolute;
+	z-index: 1900;
+	text-align: center;
+	border-radius: 0;
+}
+.first-block-overlay{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.first-block img{
+	height: 800px;
+}
+.first-block button{
+	height: 70px;
+	width: 180px;
+	font-weight: 900;
+	font-size: 2.3rem;
+	border-radius: 50px;
+}
+.search-and-weblinks{
+	margin-left: 300px;
 }
 
 @media only screen and (max-width: 900px){
