@@ -95,3 +95,14 @@ body{
 .dropdown-menu{
 	padding: 10px;
 }
+.textSuccess{
+	color: grey;
+	font-family: "Arial";
+	font-style: italic;
+}
+.successPage{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
